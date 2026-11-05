@@ -882,3 +882,21 @@ eferences.bib against \citep{...} and \citet{...} calls in paper.tex.
 - **Validation:** All 10 pages inspected across visual layout, equation numbers (1-15), TikZ figure placement, and reference split.
 - **Resource impact:** Zero computational overhead; purely static documentation and source refinement.
 - **Follow-up:** Author can recompile with the polished `docs/paper.tex` or proceed directly to upload on Zenodo.
+
+
+### 2026-11-05 17:36 +05:30 — Open Source Release & GitHub Repository Push
+
+- **Contributor:** Antigravity AI assistant.
+- **What changed:**
+  - `README.md`: Created comprehensive open-source README with badges (Zenodo DOI, MIT License, Python 3.10+, 36 tests passing, CPU-friendly), permanent link to the published Zenodo preprint (`https://zenodo.org/records/23978209`), failure modes analysis, architecture overview, full benchmark tables, quickstart guide, test/benchmark instructions, GPU reproducibility notes, BibTeX citation, and developer attribution for Siddardha Shayini (`https://github.com/SiddardhaShayini`).
+  - `LICENSE`: Added MIT License with copyright 2026 Siddardha Shayini.
+  - `CODE_OF_CONDUCT.md`: Added Contributor Covenant Code of Conduct v2.1.
+  - `CONTRIBUTING.md`: Created detailed open source contribution guide covering core architectural tenets, CPU resource limits, virtualenv setup, pytest instructions, and PR workflows.
+  - `pyproject.toml`: Configured package build specification with pytest paths and metadata.
+  - `requirements.txt`: Created dependency manifest (`psutil`, `pytest`, `python-docx`).
+  - `.gitignore`: Configured exclusions for Python caches, virtual environments, runtime databases, LaTeX build artifacts, and IDE folders.
+  - Git repository initialized on branch `main`, remote `origin` configured to `https://github.com/SiddardhaShayini/HERM4AI.git`, initial release committed (89 files) and pushed upstream.
+- **Why:** The author officially published the paper on Zenodo (`https://zenodo.org/records/23978209`) and requested full open-source packaging and synchronization with GitHub.
+- **Validation:** `pytest` executed directly and confirmed 36/36 tests passing in 0.11s; `git push -u origin main` succeeded with branch tracking established.
+- **Resource impact:** Zero GPU resource overhead; lightweight local operations.
+- **Follow-up:** Repository is live and public; monitor issues or future community contributions.

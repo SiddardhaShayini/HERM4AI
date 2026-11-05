@@ -484,3 +484,12 @@ Each MUST go through the GPU Proposal process in `AGENTS.md` before execution.
 
   private dataset for larger files.
 
+
+
+---
+
+## Milestone Completed: Academic Publication & Open Source Release (November 5, 2026)
+
+- **Zenodo Publication:** [https://zenodo.org/records/23978209](https://zenodo.org/records/23978209) (DOI: `10.5281/zenodo.23978209`)
+- **GitHub Repository:** [https://github.com/SiddardhaShayini/HERM4AI](https://github.com/SiddardhaShayini/HERM4AI)
+- **Status:** Complete with 36/36 unit tests passing, 4 executed GPU tracks, full documentation, MIT license, Contributor Covenant Code of Conduct, and contributing guidelines.
