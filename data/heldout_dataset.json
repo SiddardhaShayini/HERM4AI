@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "heldout_DR_01",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Marcus Vance",
+        "attribute": "primary_residence",
+        "value": "Tokyo",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "employment_status",
+        "value": "On-Leave",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "active_project",
+        "value": "Titan-V",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Marcus Vance",
+      "attribute": "primary_residence",
+      "query_text": "What is the primary residence of Marcus Vance?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Tokyo",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_02",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "security_clearance",
+        "value": "Public-Trust",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "encryption_protocol",
+        "value": "Post-Quantum-Kyber",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "current_role",
+      "query_text": "What is the current role of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Principal Scientist",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_03",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Amina Diallo",
+        "attribute": "employment_status",
+        "value": "Contractor",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "primary_residence",
+        "value": "Singapore",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Sora Takahashi",
+      "attribute": "primary_residence",
+      "query_text": "What is the primary residence of Sora Takahashi?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Singapore",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_04",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "employment_status",
+        "value": "Sabbatical",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "security_clearance",
+        "value": "Level-2",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "security_clearance",
+        "value": "Level-1",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Database-Cluster-9",
+      "attribute": "employment_status",
+      "query_text": "What is the employment status of Database-Cluster-9?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Sabbatical",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_05",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Core-Router-B",
+        "attribute": "employment_status",
+        "value": "Full-Time",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Chen Wei",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "current_role",
+        "value": "Director of Research",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Core-Router-B",
+      "attribute": "employment_status",
+      "query_text": "What is the employment status of Core-Router-B?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Full-Time",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_06",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Dr. Elena Rostova",
+        "attribute": "primary_residence",
+        "value": "Singapore",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Amina Diallo",
+        "attribute": "employment_status",
+        "value": "Contractor",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Elena Rostova",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Amina Diallo",
+      "attribute": "employment_status",
+      "query_text": "What is the employment status of Amina Diallo?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Contractor",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_07",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Chen Wei",
+        "attribute": "security_clearance",
+        "value": "Level-1",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "primary_residence",
+        "value": "Tokyo",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Chen Wei",
+      "attribute": "security_clearance",
+      "query_text": "What is the security clearance of Chen Wei?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Level-1",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_08",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Core-Router-B",
+        "attribute": "operating_frequency",
+        "value": "2.4 GHz",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "employment_status",
+        "value": "Contractor",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "encryption_protocol",
+        "value": "AES-256-GCM",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Devin Brooks",
+      "attribute": "employment_status",
+      "query_text": "What is the employment status of Devin Brooks?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Contractor",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_09",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Marcus Vance",
+        "attribute": "employment_status",
+        "value": "On-Leave",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Chen Wei",
+        "attribute": "operating_frequency",
+        "value": "2.4 GHz",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "hardware_status",
+        "value": "Degraded",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Marcus Vance",
+      "attribute": "employment_status",
+      "query_text": "What is the employment status of Marcus Vance?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "On-Leave",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_10",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "active_project",
+        "value": "Deep-Memory",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fleet-Vehicle-108",
+        "attribute": "primary_residence",
+        "value": "Toronto",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "active_project",
+        "value": "Deep-Memory",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Fleet-Vehicle-108",
+      "attribute": "primary_residence",
+      "query_text": "What is the primary residence of Fleet-Vehicle-108?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Toronto",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_11",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "hardware_status",
+        "value": "Operational",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "employment_status",
+        "value": "Senior-Fellow",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Auth-Service-V2",
+        "attribute": "hardware_status",
+        "value": "Operational",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Liam O'Connor",
+      "attribute": "employment_status",
+      "query_text": "What is the employment status of Liam O'Connor?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Senior-Fellow",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_DR_12",
+    "split": "heldout",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "primary_residence",
+        "value": "Tokyo",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "active_project",
+        "value": "Helios-9",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Amina Diallo",
+        "attribute": "primary_residence",
+        "value": "Singapore",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Devin Brooks",
+      "attribute": "active_project",
+      "query_text": "What is the active project of Devin Brooks?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Helios-9",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "heldout_TR_01",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Project-Chimera",
+        "attribute": "active_project",
+        "value": "Deep-Memory",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Chimera",
+        "attribute": "active_project",
+        "value": "Titan-V",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Project-Chimera",
+      "attribute": "active_project",
+      "query_text": "What is the current active project of Project-Chimera?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Titan-V",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Deep-Memory"
+    }
+  },
+  {
+    "id": "heldout_TR_02",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Dr. Elena Rostova",
+        "attribute": "operating_frequency",
+        "value": "5.8 GHz",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Elena Rostova",
+        "attribute": "operating_frequency",
+        "value": "2.4 GHz",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Dr. Elena Rostova",
+      "attribute": "operating_frequency",
+      "query_text": "What is the current operating frequency of Dr. Elena Rostova?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "2.4 GHz",
+      "expected_status": "ACTIVE",
+      "superseded_value": "5.8 GHz"
+    }
+  },
+  {
+    "id": "heldout_TR_03",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Priya Sharma",
+        "attribute": "encryption_protocol",
+        "value": "AES-256-GCM",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Priya Sharma",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Priya Sharma",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the current encryption protocol of Priya Sharma?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "TLS-1.3",
+      "expected_status": "ACTIVE",
+      "superseded_value": "AES-256-GCM"
+    }
+  },
+  {
+    "id": "heldout_TR_04",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Chen Wei",
+        "attribute": "active_project",
+        "value": "Neural-Core",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Chen Wei",
+        "attribute": "active_project",
+        "value": "Project-Genesis",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Chen Wei",
+      "attribute": "active_project",
+      "query_text": "What is the current active project of Chen Wei?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Project-Genesis",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Neural-Core"
+    }
+  },
+  {
+    "id": "heldout_TR_05",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "encryption_protocol",
+        "value": "ChaCha20-Poly1305",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Liam O'Connor",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the current encryption protocol of Liam O'Connor?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "TLS-1.3",
+      "expected_status": "ACTIVE",
+      "superseded_value": "ChaCha20-Poly1305"
+    }
+  },
+  {
+    "id": "heldout_TR_06",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "encryption_protocol",
+        "value": "Post-Quantum-Kyber",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Sora Takahashi",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the current encryption protocol of Sora Takahashi?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "TLS-1.3",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Post-Quantum-Kyber"
+    }
+  },
+  {
+    "id": "heldout_TR_07",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Carlos Mendez",
+        "attribute": "current_role",
+        "value": "Director of Research",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Carlos Mendez",
+        "attribute": "current_role",
+        "value": "Lead Architect",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Carlos Mendez",
+      "attribute": "current_role",
+      "query_text": "What is the current current role of Carlos Mendez?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Lead Architect",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Director of Research"
+    }
+  },
+  {
+    "id": "heldout_TR_08",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "primary_residence",
+        "value": "Sao Paulo",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "primary_residence",
+        "value": "Berlin",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "primary_residence",
+      "query_text": "What is the current primary residence of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Berlin",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Sao Paulo"
+    }
+  },
+  {
+    "id": "heldout_TR_09",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Devin Brooks",
+        "attribute": "security_clearance",
+        "value": "Level-3",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "security_clearance",
+        "value": "Restricted",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Devin Brooks",
+      "attribute": "security_clearance",
+      "query_text": "What is the current security clearance of Devin Brooks?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Restricted",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Level-3"
+    }
+  },
+  {
+    "id": "heldout_TR_10",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "operating_frequency",
+        "value": "2.4 GHz",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "operating_frequency",
+        "value": "60 GHz",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Project-Vanguard",
+      "attribute": "operating_frequency",
+      "query_text": "What is the current operating frequency of Project-Vanguard?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "60 GHz",
+      "expected_status": "ACTIVE",
+      "superseded_value": "2.4 GHz"
+    }
+  },
+  {
+    "id": "heldout_TR_11",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Chen Wei",
+        "attribute": "hardware_status",
+        "value": "Operational",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Chen Wei",
+        "attribute": "hardware_status",
+        "value": "Decommissioned",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Chen Wei",
+      "attribute": "hardware_status",
+      "query_text": "What is the current hardware status of Chen Wei?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Decommissioned",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Operational"
+    }
+  },
+  {
+    "id": "heldout_TR_12",
+    "split": "heldout",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Priya Sharma",
+        "attribute": "operating_frequency",
+        "value": "14.2 GHz",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Priya Sharma",
+        "attribute": "operating_frequency",
+        "value": "2.4 GHz",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Priya Sharma",
+      "attribute": "operating_frequency",
+      "query_text": "What is the current operating frequency of Priya Sharma?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "2.4 GHz",
+      "expected_status": "ACTIVE",
+      "superseded_value": "14.2 GHz"
+    }
+  },
+  {
+    "id": "heldout_CA_01",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "employment_status",
+        "value": "Full-Time",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "employment_status",
+        "value": "Sabbatical",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Project-Vanguard",
+      "attribute": "employment_status",
+      "query_text": "What is the verified employment status of Project-Vanguard?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Full-Time",
+        "Sabbatical"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_02",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "employment_status",
+        "value": "Sabbatical",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "employment_status",
+        "value": "Full-Time",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Dr. Aris Thorne",
+      "attribute": "employment_status",
+      "query_text": "What is the verified employment status of Dr. Aris Thorne?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Sabbatical",
+        "Full-Time"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_03",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "operating_frequency",
+        "value": "60 GHz",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "operating_frequency",
+        "value": "14.2 GHz",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Liam O'Connor",
+      "attribute": "operating_frequency",
+      "query_text": "What is the verified operating frequency of Liam O'Connor?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "60 GHz",
+        "14.2 GHz"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_04",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Project-Chimera",
+        "attribute": "operating_frequency",
+        "value": "60 GHz",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Chimera",
+        "attribute": "operating_frequency",
+        "value": "5.8 GHz",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Project-Chimera",
+      "attribute": "operating_frequency",
+      "query_text": "What is the verified operating frequency of Project-Chimera?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "60 GHz",
+        "5.8 GHz"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_05",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Carlos Mendez",
+        "attribute": "encryption_protocol",
+        "value": "AES-256-GCM",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Carlos Mendez",
+        "attribute": "encryption_protocol",
+        "value": "ChaCha20-Poly1305",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Carlos Mendez",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the verified encryption protocol of Carlos Mendez?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "AES-256-GCM",
+        "ChaCha20-Poly1305"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_06",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "hardware_status",
+        "value": "Standby",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "hardware_status",
+        "value": "Operational",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Satellite-Orion-4",
+      "attribute": "hardware_status",
+      "query_text": "What is the verified hardware status of Satellite-Orion-4?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Standby",
+        "Operational"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_07",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "hardware_status",
+        "value": "Decommissioned",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "hardware_status",
+        "value": "Under-Maintenance",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Fatima Al-Zahra",
+      "attribute": "hardware_status",
+      "query_text": "What is the verified hardware status of Fatima Al-Zahra?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Decommissioned",
+        "Under-Maintenance"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_08",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "current_role",
+        "value": "Director of Research",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Database-Cluster-9",
+      "attribute": "current_role",
+      "query_text": "What is the verified current role of Database-Cluster-9?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Principal Scientist",
+        "Director of Research"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_09",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Core-Router-B",
+        "attribute": "active_project",
+        "value": "Deep-Memory",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Core-Router-B",
+        "attribute": "active_project",
+        "value": "Helios-9",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Core-Router-B",
+      "attribute": "active_project",
+      "query_text": "What is the verified active project of Core-Router-B?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Deep-Memory",
+        "Helios-9"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_10",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Fleet-Vehicle-108",
+        "attribute": "operating_frequency",
+        "value": "5.8 GHz",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fleet-Vehicle-108",
+        "attribute": "operating_frequency",
+        "value": "60 GHz",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Fleet-Vehicle-108",
+      "attribute": "operating_frequency",
+      "query_text": "What is the verified operating frequency of Fleet-Vehicle-108?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "5.8 GHz",
+        "60 GHz"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_11",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "employment_status",
+        "value": "Full-Time",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "employment_status",
+        "value": "Senior-Fellow",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "employment_status",
+      "query_text": "What is the verified employment status of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Full-Time",
+        "Senior-Fellow"
+      ]
+    }
+  },
+  {
+    "id": "heldout_CA_12",
+    "split": "heldout",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "current_role",
+        "value": "Lead Architect",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "current_role",
+      "query_text": "What is the verified current role of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Lead Architect",
+        "Principal Scientist"
+      ]
+    }
+  },
+  {
+    "id": "heldout_AU_01",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Project-Chimera",
+        "attribute": "employment_status",
+        "value": "Sabbatical",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Project-Chimera",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Project-Chimera?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_02",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "employment_status",
+        "value": "Full-Time",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Project-Vanguard",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Project-Vanguard?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_03",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "encryption_protocol",
+        "value": "AES-256-GCM",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Sora Takahashi",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Sora Takahashi?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_04",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Auth-Service-V2",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Auth-Service-V2",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Auth-Service-V2?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_05",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "current_role",
+        "value": "Security Auditor",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Sora Takahashi",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Sora Takahashi?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_06",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Auth-Service-V2",
+        "attribute": "operating_frequency",
+        "value": "14.2 GHz",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Auth-Service-V2",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Auth-Service-V2?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_07",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Auth-Service-V2",
+        "attribute": "encryption_protocol",
+        "value": "Post-Quantum-Kyber",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Auth-Service-V2",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Auth-Service-V2?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_08",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Chen Wei",
+        "attribute": "current_role",
+        "value": "Director of Research",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Chen Wei",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Chen Wei?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_09",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "hardware_status",
+        "value": "Decommissioned",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_10",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "hardware_status",
+        "value": "Operational",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_11",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "employment_status",
+        "value": "On-Leave",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Fatima Al-Zahra",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Fatima Al-Zahra?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_AU_12",
+    "split": "heldout",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "security_clearance",
+        "value": "Level-2",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Liam O'Connor",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Liam O'Connor?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "heldout_TD_01",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "encryption_protocol",
+        "value": "AES-256-GCM",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_02",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Marcus Vance",
+        "attribute": "encryption_protocol",
+        "value": "ChaCha20-Poly1305",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Marcus Vance",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Marcus Vance",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Marcus Vance?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_03",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "current_role",
+        "value": "Lead Architect",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "current_role",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Quantum-Lab-Subnet",
+      "attribute": "current_role",
+      "query_text": "What is the stored current role of Quantum-Lab-Subnet?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_04",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Carlos Mendez",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Carlos Mendez",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Carlos Mendez",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Carlos Mendez?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_05",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Satellite-Orion-4",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Satellite-Orion-4?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_06",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Priya Sharma",
+        "attribute": "hardware_status",
+        "value": "Decommissioned",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Priya Sharma",
+        "attribute": "hardware_status",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Priya Sharma",
+      "attribute": "hardware_status",
+      "query_text": "What is the stored hardware status of Priya Sharma?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_07",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "employment_status",
+        "value": "Contractor",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "employment_status",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Quantum-Lab-Subnet",
+      "attribute": "employment_status",
+      "query_text": "What is the stored employment status of Quantum-Lab-Subnet?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_08",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Devin Brooks",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Devin Brooks",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Devin Brooks?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_09",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "operating_frequency",
+        "value": "5.8 GHz",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "operating_frequency",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Project-Vanguard",
+      "attribute": "operating_frequency",
+      "query_text": "What is the stored operating frequency of Project-Vanguard?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_10",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "active_project",
+        "value": "Helios-9",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "active_project",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Database-Cluster-9",
+      "attribute": "active_project",
+      "query_text": "What is the stored active project of Database-Cluster-9?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_11",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Dr. Aris Thorne",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Dr. Aris Thorne?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "heldout_TD_12",
+    "split": "heldout",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Marcus Vance",
+        "attribute": "encryption_protocol",
+        "value": "Post-Quantum-Kyber",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Marcus Vance",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Marcus Vance",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Marcus Vance?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  }
+]

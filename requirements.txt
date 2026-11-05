@@ -1,0 +1,8 @@
+# Core runtime
+psutil>=5.9.0
+
+# Testing & Quality
+pytest>=7.0.0
+
+# Documentation & sync tooling
+python-docx>=1.0.0

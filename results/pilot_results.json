@@ -1,0 +1,959 @@
+[
+  {
+    "system_name": "StatelessBaseline",
+    "benchmark_file": "pilot_dataset.json",
+    "total_cases": 30,
+    "overall_accuracy_pct": 20.0,
+    "category_accuracies_pct": {
+      "DR": 0.0,
+      "TR": 0.0,
+      "CA": 0.0,
+      "AU": 100.0,
+      "TD": 0.0
+    },
+    "provenance_coverage_pct": 0.0,
+    "total_latency_ms": 0.11,
+    "avg_latency_per_query_ms": 0.004,
+    "peak_ram_delta_mb": 0.01,
+    "case_details": [
+      {
+        "id": "pilot_DR_01",
+        "category": "DR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Nairobi",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_02",
+        "category": "DR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Senior-Fellow",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_03",
+        "category": "DR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Degraded",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_04",
+        "category": "DR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Level-1",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_05",
+        "category": "DR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Level-1",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_06",
+        "category": "DR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Titan-V",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_01",
+        "category": "TR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Post-Quantum-Kyber",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_02",
+        "category": "TR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "14.2 GHz",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_03",
+        "category": "TR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Titan-V",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_04",
+        "category": "TR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Standby",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_05",
+        "category": "TR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Sabbatical",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_06",
+        "category": "TR",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "Singapore",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_01",
+        "category": "CA",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_02",
+        "category": "CA",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_03",
+        "category": "CA",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_04",
+        "category": "CA",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_05",
+        "category": "CA",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_06",
+        "category": "CA",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_01",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_02",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_03",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_04",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_05",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_06",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_01",
+        "category": "TD",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "DELETED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_02",
+        "category": "TD",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "DELETED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_03",
+        "category": "TD",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "DELETED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_04",
+        "category": "TD",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "DELETED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_05",
+        "category": "TD",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "DELETED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_06",
+        "category": "TD",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "DELETED",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      }
+    ]
+  },
+  {
+    "system_name": "NaiveRetrievalBaseline",
+    "benchmark_file": "pilot_dataset.json",
+    "total_cases": 30,
+    "overall_accuracy_pct": 20.0,
+    "category_accuracies_pct": {
+      "DR": 100.0,
+      "TR": 0.0,
+      "CA": 0.0,
+      "AU": 0.0,
+      "TD": 0.0
+    },
+    "provenance_coverage_pct": 0.0,
+    "total_latency_ms": 0.54,
+    "avg_latency_per_query_ms": 0.018,
+    "peak_ram_delta_mb": 0.01,
+    "case_details": [
+      {
+        "id": "pilot_DR_01",
+        "category": "DR",
+        "predicted_val": "Nairobi",
+        "expected_val": "Nairobi",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_02",
+        "category": "DR",
+        "predicted_val": "Senior-Fellow",
+        "expected_val": "Senior-Fellow",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_03",
+        "category": "DR",
+        "predicted_val": "Degraded",
+        "expected_val": "Degraded",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_04",
+        "category": "DR",
+        "predicted_val": "Level-1",
+        "expected_val": "Level-1",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_05",
+        "category": "DR",
+        "predicted_val": "Level-1",
+        "expected_val": "Level-1",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_DR_06",
+        "category": "DR",
+        "predicted_val": "Titan-V",
+        "expected_val": "Titan-V",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_01",
+        "category": "TR",
+        "predicted_val": "TLS-1.3",
+        "expected_val": "Post-Quantum-Kyber",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_02",
+        "category": "TR",
+        "predicted_val": "10.5 GHz",
+        "expected_val": "14.2 GHz",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_03",
+        "category": "TR",
+        "predicted_val": "Project-Genesis",
+        "expected_val": "Titan-V",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_04",
+        "category": "TR",
+        "predicted_val": "Decommissioned",
+        "expected_val": "Standby",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_05",
+        "category": "TR",
+        "predicted_val": "Senior-Fellow",
+        "expected_val": "Sabbatical",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TR_06",
+        "category": "TR",
+        "predicted_val": "Berlin",
+        "expected_val": "Singapore",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_01",
+        "category": "CA",
+        "predicted_val": "TLS-1.3",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_02",
+        "category": "CA",
+        "predicted_val": "Director of Research",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_03",
+        "category": "CA",
+        "predicted_val": "Level-3",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_04",
+        "category": "CA",
+        "predicted_val": "Degraded",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_05",
+        "category": "CA",
+        "predicted_val": "Degraded",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_CA_06",
+        "category": "CA",
+        "predicted_val": "On-Leave",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "CONFLICTED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_01",
+        "category": "AU",
+        "predicted_val": "Singapore",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "ACTIVE",
+        "expected_status": "UNKNOWN",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_02",
+        "category": "AU",
+        "predicted_val": "Singapore",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "ACTIVE",
+        "expected_status": "UNKNOWN",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_03",
+        "category": "AU",
+        "predicted_val": "Contractor",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "ACTIVE",
+        "expected_status": "UNKNOWN",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_04",
+        "category": "AU",
+        "predicted_val": "Public-Trust",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "ACTIVE",
+        "expected_status": "UNKNOWN",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_05",
+        "category": "AU",
+        "predicted_val": "Level-2",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "ACTIVE",
+        "expected_status": "UNKNOWN",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_AU_06",
+        "category": "AU",
+        "predicted_val": "Principal Scientist",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "ACTIVE",
+        "expected_status": "UNKNOWN",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_01",
+        "category": "TD",
+        "predicted_val": "AES-256-GCM",
+        "expected_val": "DELETED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_02",
+        "category": "TD",
+        "predicted_val": "Post-Quantum-Kyber",
+        "expected_val": "DELETED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_03",
+        "category": "TD",
+        "predicted_val": "Principal Scientist",
+        "expected_val": "DELETED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_04",
+        "category": "TD",
+        "predicted_val": "Level-1",
+        "expected_val": "DELETED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_05",
+        "category": "TD",
+        "predicted_val": "Contractor",
+        "expected_val": "DELETED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      },
+      {
+        "id": "pilot_TD_06",
+        "category": "TD",
+        "predicted_val": "Level-2",
+        "expected_val": "DELETED",
+        "predicted_status": "ACTIVE",
+        "expected_status": "DELETED",
+        "is_correct": false,
+        "provenance_count": 0
+      }
+    ]
+  },
+  {
+    "system_name": "HERM4AI",
+    "benchmark_file": "pilot_dataset.json",
+    "total_cases": 30,
+    "overall_accuracy_pct": 100.0,
+    "category_accuracies_pct": {
+      "DR": 100.0,
+      "TR": 100.0,
+      "CA": 100.0,
+      "AU": 100.0,
+      "TD": 100.0
+    },
+    "provenance_coverage_pct": 100.0,
+    "total_latency_ms": 2.84,
+    "avg_latency_per_query_ms": 0.095,
+    "peak_ram_delta_mb": 0.08,
+    "case_details": [
+      {
+        "id": "pilot_DR_01",
+        "category": "DR",
+        "predicted_val": "Nairobi",
+        "expected_val": "Nairobi",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_DR_02",
+        "category": "DR",
+        "predicted_val": "Senior-Fellow",
+        "expected_val": "Senior-Fellow",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_DR_03",
+        "category": "DR",
+        "predicted_val": "Degraded",
+        "expected_val": "Degraded",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_DR_04",
+        "category": "DR",
+        "predicted_val": "Level-1",
+        "expected_val": "Level-1",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_DR_05",
+        "category": "DR",
+        "predicted_val": "Level-1",
+        "expected_val": "Level-1",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_DR_06",
+        "category": "DR",
+        "predicted_val": "Titan-V",
+        "expected_val": "Titan-V",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_TR_01",
+        "category": "TR",
+        "predicted_val": "Post-Quantum-Kyber",
+        "expected_val": "Post-Quantum-Kyber",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TR_02",
+        "category": "TR",
+        "predicted_val": "14.2 GHz",
+        "expected_val": "14.2 GHz",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TR_03",
+        "category": "TR",
+        "predicted_val": "Titan-V",
+        "expected_val": "Titan-V",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TR_04",
+        "category": "TR",
+        "predicted_val": "Standby",
+        "expected_val": "Standby",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TR_05",
+        "category": "TR",
+        "predicted_val": "Sabbatical",
+        "expected_val": "Sabbatical",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TR_06",
+        "category": "TR",
+        "predicted_val": "Singapore",
+        "expected_val": "Singapore",
+        "predicted_status": "ACTIVE",
+        "expected_status": "ACTIVE",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_CA_01",
+        "category": "CA",
+        "predicted_val": "CONFLICTED",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "CONFLICTED",
+        "expected_status": "CONFLICTED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_CA_02",
+        "category": "CA",
+        "predicted_val": "CONFLICTED",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "CONFLICTED",
+        "expected_status": "CONFLICTED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_CA_03",
+        "category": "CA",
+        "predicted_val": "CONFLICTED",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "CONFLICTED",
+        "expected_status": "CONFLICTED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_CA_04",
+        "category": "CA",
+        "predicted_val": "CONFLICTED",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "CONFLICTED",
+        "expected_status": "CONFLICTED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_CA_05",
+        "category": "CA",
+        "predicted_val": "CONFLICTED",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "CONFLICTED",
+        "expected_status": "CONFLICTED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_CA_06",
+        "category": "CA",
+        "predicted_val": "CONFLICTED",
+        "expected_val": "CONFLICTED",
+        "predicted_status": "CONFLICTED",
+        "expected_status": "CONFLICTED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_AU_01",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_AU_02",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_AU_03",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_AU_04",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_AU_05",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_AU_06",
+        "category": "AU",
+        "predicted_val": "UNKNOWN",
+        "expected_val": "UNKNOWN",
+        "predicted_status": "UNKNOWN",
+        "expected_status": "UNKNOWN",
+        "is_correct": true,
+        "provenance_count": 1
+      },
+      {
+        "id": "pilot_TD_01",
+        "category": "TD",
+        "predicted_val": "DELETED",
+        "expected_val": "DELETED",
+        "predicted_status": "DELETED",
+        "expected_status": "DELETED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TD_02",
+        "category": "TD",
+        "predicted_val": "DELETED",
+        "expected_val": "DELETED",
+        "predicted_status": "DELETED",
+        "expected_status": "DELETED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TD_03",
+        "category": "TD",
+        "predicted_val": "DELETED",
+        "expected_val": "DELETED",
+        "predicted_status": "DELETED",
+        "expected_status": "DELETED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TD_04",
+        "category": "TD",
+        "predicted_val": "DELETED",
+        "expected_val": "DELETED",
+        "predicted_status": "DELETED",
+        "expected_status": "DELETED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TD_05",
+        "category": "TD",
+        "predicted_val": "DELETED",
+        "expected_val": "DELETED",
+        "predicted_status": "DELETED",
+        "expected_status": "DELETED",
+        "is_correct": true,
+        "provenance_count": 2
+      },
+      {
+        "id": "pilot_TD_06",
+        "category": "TD",
+        "predicted_val": "DELETED",
+        "expected_val": "DELETED",
+        "predicted_status": "DELETED",
+        "expected_status": "DELETED",
+        "is_correct": true,
+        "provenance_count": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "pilot_DR_01",
+    "split": "pilot",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Devin Brooks",
+        "attribute": "active_project",
+        "value": "Titan-V",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "security_clearance",
+        "value": "Restricted",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "primary_residence",
+        "value": "Nairobi",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Sora Takahashi",
+      "attribute": "primary_residence",
+      "query_text": "What is the primary residence of Sora Takahashi?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Nairobi",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "pilot_DR_02",
+    "split": "pilot",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Devin Brooks",
+        "attribute": "current_role",
+        "value": "Director of Research",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "employment_status",
+        "value": "Senior-Fellow",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Marcus Vance",
+        "attribute": "employment_status",
+        "value": "Senior-Fellow",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Marcus Vance",
+      "attribute": "employment_status",
+      "query_text": "What is the employment status of Marcus Vance?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Senior-Fellow",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "pilot_DR_03",
+    "split": "pilot",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "operating_frequency",
+        "value": "60 GHz",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "hardware_status",
+        "value": "Degraded",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Priya Sharma",
+        "attribute": "security_clearance",
+        "value": "Level-1",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Liam O'Connor",
+      "attribute": "hardware_status",
+      "query_text": "What is the hardware status of Liam O'Connor?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Degraded",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "pilot_DR_04",
+    "split": "pilot",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "hardware_status",
+        "value": "Standby",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "security_clearance",
+        "value": "Level-1",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fleet-Vehicle-108",
+        "attribute": "employment_status",
+        "value": "Full-Time",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Database-Cluster-9",
+      "attribute": "security_clearance",
+      "query_text": "What is the security clearance of Database-Cluster-9?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Level-1",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "pilot_DR_05",
+    "split": "pilot",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "security_clearance",
+        "value": "Level-1",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Chimera",
+        "attribute": "hardware_status",
+        "value": "Decommissioned",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Chen Wei",
+        "attribute": "operating_frequency",
+        "value": "60 GHz",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Fatima Al-Zahra",
+      "attribute": "security_clearance",
+      "query_text": "What is the security clearance of Fatima Al-Zahra?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Level-1",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "pilot_DR_06",
+    "split": "pilot",
+    "category": "DR",
+    "assertions": [
+      {
+        "entity": "Devin Brooks",
+        "attribute": "active_project",
+        "value": "Atlas-X",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "Audit_Log",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "employment_status",
+        "value": "On-Leave",
+        "timestamp": "2024-02-01T12:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Marcus Vance",
+        "attribute": "active_project",
+        "value": "Titan-V",
+        "timestamp": "2024-01-15T09:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Marcus Vance",
+      "attribute": "active_project",
+      "query_text": "What is the active project of Marcus Vance?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Titan-V",
+      "expected_status": "ACTIVE"
+    }
+  },
+  {
+    "id": "pilot_TR_01",
+    "split": "pilot",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Liam O'Connor",
+        "attribute": "encryption_protocol",
+        "value": "Post-Quantum-Kyber",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Liam O'Connor",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the current encryption protocol of Liam O'Connor?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Post-Quantum-Kyber",
+      "expected_status": "ACTIVE",
+      "superseded_value": "TLS-1.3"
+    }
+  },
+  {
+    "id": "pilot_TR_02",
+    "split": "pilot",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "operating_frequency",
+        "value": "10.5 GHz",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "operating_frequency",
+        "value": "14.2 GHz",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Satellite-Orion-4",
+      "attribute": "operating_frequency",
+      "query_text": "What is the current operating frequency of Satellite-Orion-4?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "14.2 GHz",
+      "expected_status": "ACTIVE",
+      "superseded_value": "10.5 GHz"
+    }
+  },
+  {
+    "id": "pilot_TR_03",
+    "split": "pilot",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "active_project",
+        "value": "Project-Genesis",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Database-Cluster-9",
+        "attribute": "active_project",
+        "value": "Titan-V",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Database-Cluster-9",
+      "attribute": "active_project",
+      "query_text": "What is the current active project of Database-Cluster-9?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Titan-V",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Project-Genesis"
+    }
+  },
+  {
+    "id": "pilot_TR_04",
+    "split": "pilot",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "hardware_status",
+        "value": "Decommissioned",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "hardware_status",
+        "value": "Standby",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Quantum-Lab-Subnet",
+      "attribute": "hardware_status",
+      "query_text": "What is the current hardware status of Quantum-Lab-Subnet?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Standby",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Decommissioned"
+    }
+  },
+  {
+    "id": "pilot_TR_05",
+    "split": "pilot",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Priya Sharma",
+        "attribute": "employment_status",
+        "value": "Senior-Fellow",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Priya Sharma",
+        "attribute": "employment_status",
+        "value": "Sabbatical",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Priya Sharma",
+      "attribute": "employment_status",
+      "query_text": "What is the current employment status of Priya Sharma?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Sabbatical",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Senior-Fellow"
+    }
+  },
+  {
+    "id": "pilot_TR_06",
+    "split": "pilot",
+    "category": "TR",
+    "assertions": [
+      {
+        "entity": "Marcus Vance",
+        "attribute": "primary_residence",
+        "value": "Berlin",
+        "timestamp": "2024-01-10T10:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      },
+      {
+        "entity": "Marcus Vance",
+        "attribute": "primary_residence",
+        "value": "Singapore",
+        "timestamp": "2024-05-20T14:30:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Marcus Vance",
+      "attribute": "primary_residence",
+      "query_text": "What is the current primary residence of Marcus Vance?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "Singapore",
+      "expected_status": "ACTIVE",
+      "superseded_value": "Berlin"
+    }
+  },
+  {
+    "id": "pilot_CA_01",
+    "split": "pilot",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Chen Wei",
+        "attribute": "encryption_protocol",
+        "value": "TLS-1.3",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Chen Wei",
+        "attribute": "encryption_protocol",
+        "value": "AES-256-GCM",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Chen Wei",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the verified encryption protocol of Chen Wei?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "TLS-1.3",
+        "AES-256-GCM"
+      ]
+    }
+  },
+  {
+    "id": "pilot_CA_02",
+    "split": "pilot",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "current_role",
+        "value": "Director of Research",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Project-Vanguard",
+        "attribute": "current_role",
+        "value": "Security Auditor",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Project-Vanguard",
+      "attribute": "current_role",
+      "query_text": "What is the verified current role of Project-Vanguard?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Director of Research",
+        "Security Auditor"
+      ]
+    }
+  },
+  {
+    "id": "pilot_CA_03",
+    "split": "pilot",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "security_clearance",
+        "value": "Level-3",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "security_clearance",
+        "value": "Public-Trust",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Dr. Aris Thorne",
+      "attribute": "security_clearance",
+      "query_text": "What is the verified security clearance of Dr. Aris Thorne?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Level-3",
+        "Public-Trust"
+      ]
+    }
+  },
+  {
+    "id": "pilot_CA_04",
+    "split": "pilot",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "hardware_status",
+        "value": "Degraded",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Sora Takahashi",
+        "attribute": "hardware_status",
+        "value": "Decommissioned",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Sora Takahashi",
+      "attribute": "hardware_status",
+      "query_text": "What is the verified hardware status of Sora Takahashi?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Degraded",
+        "Decommissioned"
+      ]
+    }
+  },
+  {
+    "id": "pilot_CA_05",
+    "split": "pilot",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "hardware_status",
+        "value": "Degraded",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "hardware_status",
+        "value": "Operational",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Dr. Aris Thorne",
+      "attribute": "hardware_status",
+      "query_text": "What is the verified hardware status of Dr. Aris Thorne?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "Degraded",
+        "Operational"
+      ]
+    }
+  },
+  {
+    "id": "pilot_CA_06",
+    "split": "pilot",
+    "category": "CA",
+    "assertions": [
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "employment_status",
+        "value": "On-Leave",
+        "timestamp": "2024-03-01T10:00:00Z",
+        "source": "Primary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "employment_status",
+        "value": "Contractor",
+        "timestamp": "2024-03-01T10:05:00Z",
+        "source": "Secondary_Sensor_Net",
+        "confidence": 0.85,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Fatima Al-Zahra",
+      "attribute": "employment_status",
+      "query_text": "What is the verified employment status of Fatima Al-Zahra?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "CONFLICTED",
+      "expected_status": "CONFLICTED",
+      "conflicting_values": [
+        "On-Leave",
+        "Contractor"
+      ]
+    }
+  },
+  {
+    "id": "pilot_AU_01",
+    "split": "pilot",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Quantum-Lab-Subnet",
+        "attribute": "primary_residence",
+        "value": "Singapore",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Quantum-Lab-Subnet",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Quantum-Lab-Subnet?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "pilot_AU_02",
+    "split": "pilot",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Core-Router-B",
+        "attribute": "primary_residence",
+        "value": "Singapore",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Core-Router-B",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Core-Router-B?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "pilot_AU_03",
+    "split": "pilot",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "employment_status",
+        "value": "Contractor",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Fatima Al-Zahra",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Fatima Al-Zahra?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "pilot_AU_04",
+    "split": "pilot",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "security_clearance",
+        "value": "Public-Trust",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Satellite-Orion-4",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Satellite-Orion-4?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "pilot_AU_05",
+    "split": "pilot",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Core-Router-B",
+        "attribute": "security_clearance",
+        "value": "Level-2",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Core-Router-B",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Core-Router-B?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "pilot_AU_06",
+    "split": "pilot",
+    "category": "AU",
+    "assertions": [
+      {
+        "entity": "Amina Diallo",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.9,
+        "is_deletion": false
+      }
+    ],
+    "query": {
+      "entity": "Amina Diallo",
+      "attribute": "emergency_contact_frequency",
+      "query_text": "What is the emergency contact frequency of Amina Diallo?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "UNKNOWN",
+      "expected_status": "UNKNOWN"
+    }
+  },
+  {
+    "id": "pilot_TD_01",
+    "split": "pilot",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Devin Brooks",
+        "attribute": "encryption_protocol",
+        "value": "AES-256-GCM",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Directory_Service",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Devin Brooks",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Devin Brooks",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Devin Brooks?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "pilot_TD_02",
+    "split": "pilot",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "encryption_protocol",
+        "value": "Post-Quantum-Kyber",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Fatima Al-Zahra",
+        "attribute": "encryption_protocol",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Fatima Al-Zahra",
+      "attribute": "encryption_protocol",
+      "query_text": "What is the stored encryption protocol of Fatima Al-Zahra?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "pilot_TD_03",
+    "split": "pilot",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Auth-Service-V2",
+        "attribute": "current_role",
+        "value": "Principal Scientist",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Auth-Service-V2",
+        "attribute": "current_role",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Auth-Service-V2",
+      "attribute": "current_role",
+      "query_text": "What is the stored current role of Auth-Service-V2?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "pilot_TD_04",
+    "split": "pilot",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "security_clearance",
+        "value": "Level-1",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Device_Telemetry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Ingrid Lindholm",
+        "attribute": "security_clearance",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Ingrid Lindholm",
+      "attribute": "security_clearance",
+      "query_text": "What is the stored security clearance of Ingrid Lindholm?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "pilot_TD_05",
+    "split": "pilot",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "employment_status",
+        "value": "Contractor",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "Project_Registry",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Satellite-Orion-4",
+        "attribute": "employment_status",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Satellite-Orion-4",
+      "attribute": "employment_status",
+      "query_text": "What is the stored employment status of Satellite-Orion-4?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  },
+  {
+    "id": "pilot_TD_06",
+    "split": "pilot",
+    "category": "TD",
+    "assertions": [
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "security_clearance",
+        "value": "Level-2",
+        "timestamp": "2024-01-10T08:00:00Z",
+        "source": "HR_Database",
+        "confidence": 0.95,
+        "is_deletion": false
+      },
+      {
+        "entity": "Dr. Aris Thorne",
+        "attribute": "security_clearance",
+        "value": null,
+        "timestamp": "2024-04-12T16:00:00Z",
+        "source": "GDPR_User_Purge_Request",
+        "confidence": 1.0,
+        "is_deletion": true
+      }
+    ],
+    "query": {
+      "entity": "Dr. Aris Thorne",
+      "attribute": "security_clearance",
+      "query_text": "What is the stored security clearance of Dr. Aris Thorne?",
+      "query_time": "2024-06-01T00:00:00Z"
+    },
+    "ground_truth": {
+      "expected_value": "DELETED",
+      "expected_status": "DELETED"
+    }
+  }
+]

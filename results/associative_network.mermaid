@@ -1,0 +1,11 @@
+graph LR
+    Dr__Aris_Thorne["Dr. Aris Thorne"] -->|"LEADS (w=1.0)"| Project_Vanguard["Project-Vanguard"]
+    Marcus_Vance["Marcus Vance"] -->|"AUDITS (w=1.0)"| Auth_Service_V2["Auth-Service-V2"]
+    Sora_Takahashi["Sora Takahashi"] -->|"ARCHITECTS (w=1.0)"| Neural_Core["Neural-Core"]
+    Project_Vanguard["Project-Vanguard"] -->|"DEPLOYED_ON (w=0.9)"| Quantum_Lab_Subnet["Quantum-Lab-Subnet"]
+    Auth_Service_V2["Auth-Service-V2"] -->|"SECURES (w=0.9)"| Database_Cluster_9["Database-Cluster-9"]
+    Database_Cluster_9["Database-Cluster-9"] -->|"HOSTED_ON (w=0.85)"| Server_Alpha["Server-Alpha"]
+    Quantum_Lab_Subnet["Quantum-Lab-Subnet"] -->|"DEPENDS_ON (w=0.8)"| Core_Router_B["Core-Router-B"]
+    Neural_Core["Neural-Core"] -->|"INTEGRATES_WITH (w=0.8)"| Project_Vanguard["Project-Vanguard"]
+    Dr__Elena_Rostova["Dr. Elena Rostova"] -->|"COORDINATES_WITH (w=0.75)"| Dr__Aris_Thorne["Dr. Aris Thorne"]
+    Core_Router_B["Core-Router-B"] -->|"MONITORED_BY (w=0.7)"| Device_Telemetry["Device_Telemetry"]
